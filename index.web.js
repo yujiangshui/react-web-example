@@ -7,24 +7,24 @@ import React, {
   AppRegistry,
   Component,
   StyleSheet,
-  Text,
   View,
   Platform,
 } from 'react-native';
+
+import Text from 'ReactText';
 
 class Awes extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native! 哈哈
+          Welcome to React Web!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          To get started, edit index.web.js
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          Press Cmd+R to reload
         </Text>
       </View>
     );
